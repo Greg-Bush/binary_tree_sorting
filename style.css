@@ -1,0 +1,49 @@
+body {
+    background-color: #DAE4E4;
+}
+
+.Hidden {
+    display: none;
+}
+
+.TopPanel {
+    position: absolute;
+    top: 80px;
+    left: 15px;
+    z-index: 500;
+    width: 300px;
+    height: 120px;
+}
+
+#diagramArea {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#nextStepButton {
+    position: absolute;
+    bottom: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin-left: 5px;
+    transition: all 1s ease;
+}
+
+div > button {
+    margin-top: 10px;
+}
+
+input {
+    width: 250px;
+}

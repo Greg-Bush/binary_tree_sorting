@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>try go.js</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script src="jquery.min.js"></script>
+    <script src="go-debug.js"></script>
+    <script src="tree.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="TopPanel">
+        <form id="startingForm" onsubmit="return false;">
+            <input id="numbersInput" type="text" placeholder="Введите числа для сортировки" value="15, 3, 2, 13, 8, 10, 14, 1, 19, 5, 2, 25, 17" maxlength="100" />
+            <button type="submit">OK</button>
+            <noscript>В вашем браузере запрещено выполнение JavaScript</noscript>
+        </form>
+        <div class="Hidden">
+            <p>Исходный массив:</p>
+            <ul id="initialArray"></ul><br />
+        </div>
+        <div class="Hidden">
+            <p>Результат:</p>
+            <ul id="resultArray"></ul><br />
+        </div>
+        <button id="nextStepButton" class="Hidden">Next step</button>
+    </div>
+    <div id="diagramArea"></div>
+</body>
+</html>
